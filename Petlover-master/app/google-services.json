@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "270741703236",
+    "project_id": "petlover-3ae2a",
+    "storage_bucket": "petlover-3ae2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270741703236:android:fd95b5794e3a24bfc64a11",
+        "android_client_info": {
+          "package_name": "com.example.petlover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270741703236-9q1ipmaahusp68al3orbrlt7ijp81j89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petlover",
+            "certificate_hash": "e70f350577d91c38aae4edf57060d0c181b08451"
+          }
+        },
+        {
+          "client_id": "270741703236-ooeiefkur5smrau7ri8h63bbm4p4dg7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petlover",
+            "certificate_hash": "ca009c2fba1c6e8009cdd388d5ed010edac4c379"
+          }
+        },
+        {
+          "client_id": "270741703236-b636id66hkvq801lrg42pjllccbl4usb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7364_wQkmp8i7lque_U9gEF_yplv0f4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270741703236-b636id66hkvq801lrg42pjllccbl4usb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

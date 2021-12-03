@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+        android:id="@+id/imgslide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/profesionales" />
+
+    <TextView
+        android:id="@+id/textotema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/tema1"
+        android:textAlignment="center"
+        android:textColor="@color/onbording"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textodesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poiret_one"
+        android:text="@string/desc_1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.1125" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/drawable/ic_baseline_search_ligthgray.xml" value="0.2203125" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/drawable/ic_close_24.xml" value="0.2203125" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/drawable/ic_outline_account_circle_black.xml" value="0.1125" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/drawable/icon_email.xml" value="0.2203125" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_app_descripcion.xml" value="0.1" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_cliente.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_gestion_usuario.xml" value="0.21" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_login_inicial.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/activity_reset_password.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/bottomsheetlayout.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/fragment_clinicas.xml" value="0.13155864197530864" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/fragment_favoritos.xml" value="0.18" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/fragment_ofertas.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/header_navigation_drawer_main.xml" value="0.1" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/informacion_card.xml" value="0.1585144927536232" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/informacion_clinicas.xml" value="0.1585144927536232" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_clinica.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_evaluacion_clinica.xml" value="0.1331521739130435" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_favoritos.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_perfil_clinicas.xml" value="0.1331521739130435" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_perfil_servicios.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantilla_publicaciones_ofertas.xml" value="0.24855491329479767" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/layout/plantillausuariomain.xml" value="0.1" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/menu/item_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/menu/main_top_app_menu.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Petlover/app/src/main/res/menu/menu_navigation_drawer_main.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustPan"
+    style="@style/Widget.MaterialComponents.NavigationRailView.Compact"
+    tools:context=".MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
+                android:fitsSystemWindows="true">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/topAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    style="@style/Widget.MaterialComponents.NavigationRailView.Compact"
+                    app:title="@string/app_name"
+                    app:menu="@menu/main_top_app_menu"
+                    app:navigationIcon="@drawable/ic_baseline_menu_negro"
+                    android:elevation="0dp" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <FrameLayout
+                    android:layout_margin="0dp"
+                    android:windowSoftInputMode="adjustPan"
+                    android:id="@+id/fragmentContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:isScrollContainer="false"
+                    android:clipToPadding="false"/>
+
+            </androidx.core.widget.NestedScrollView>
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fabCradleMargin="5dp"
+                app:contentInsetStart="0dp"
+                app:fabCradleVerticalOffset="0dp"
+                style="@style/Widget.MaterialComponents.BottomAppBar"
+                app:fabCradleRoundedCornerRadius="5dp"
+                android:layout_gravity="bottom">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginStart="0dp"
+                    style="@style/Widget.MaterialComponents.NavigationRailView"
+                    app:menu="@menu/item_menu" />
+
+                <!--            android:background="@android:color/transparent"-->
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            style="@style/Widget.MaterialComponents.NavigationRailView.Compact"
+            app:headerLayout="@layout/header_navigation_drawer_main"
+            app:menu="@menu/menu_navigation_drawer_main"
+            app:itemTextAppearance="?attr/textAppearanceBody1"
+            android:id="@+id/navigationViewTop"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <!-- Screen content -->
+    <!-- Use app:layout_behavior="@string/appbar_scrolling_view_behavior" to fit below top app bar -->
+
+    <!--    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginTop="55dp"
+            android:id="@+id/fragmentContainer"/>-->
+
+    <!--    <FrameLayout
+            android:layout_margin="0dp"
+            android:id="@+id/fragmentContainer"
+            android:paddingTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:clipToPadding="false"/>-->
+
+
+    <!-- Scrollable content -->
+    <!--
+    <LinearLayout
+        android:id="@+id/LinearPrueba"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txtmain"
+            android:layout_width="230dp"
+            android:text="Main Activity - Click para cerrar sesion"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_margin="15dp"
+            android:id="@+id/txtdatos"
+            android:layout_width="230dp"
+            android:text="datos"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txtmain2"
+            android:layout_width="230dp"
+            android:text="Main Activity - Click para cerrar sesion"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_margin="15dp"
+            android:id="@+id/txtdatos2"
+            android:layout_width="230dp"
+            android:text="datos"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        tools:context=".mainModulo.vista.MainActivity">
+
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txtmain"
+            android:layout_width="230dp"
+            android:text="Main Activity - Click para cerrar sesion"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txtdatos"
+            android:layout_width="230dp"
+            android:text="datos"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>-->

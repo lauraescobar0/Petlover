@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Petlover</string>
+
+    //tema cada pagina
+    <string name="tema1">Ten confianza con nosotros</string>
+    <string name="tema2">Escoge la clinica que más te parezca</string>
+    <string name="tema3">Estamos siempre disponibles para ti</string>
+    <string name="tema4">Contamos con productos de primera calidad</string>
+    // descripcion cada pagina
+    <string name="desc_1">Contamos con un Equipo de Profesionales Altamente capacitados y a valados por más de una trayectoria de 20 años.</string>
+    <string name="desc_2">Todas nuestras veterinarias Son Certificadas Para tu seguridad y la de tu mascota puedes confiar en todos los servicios que te ofrecemos de nuestras clinicas veterinarias.</string>
+    <string name="desc_3">Atendemos emergencias Las 24 Horas del día Sabemos que una contingencia puede suceder en cualquier momento.</string>
+    <string name="desc_4">Encontraras muchos productos que te gustaran y muchos servicios en promoción.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SharedPreferencesAppID">Petlover.sharedpreferences</string>
+    <string name="title_menutop_usuarioprofile">UsuarioProfile</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="bienvenido_a_petlover">¡Bienvenido a Petlover!</string>
+    <string name="correo_electronico">Correo eléctronico</string>
+    <string name="o_ingresar_con">O Ingresar con:</string>
+    <string name="olvidaste_tu_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="registrarme_con_mi_correo">Registrarme con mi correo</string>
+    <string name="loginAuthErrorServermsg">Error al autenticarse… Intente más tarde.</string>
+    <string name="loginAuthCredentialError">Error: contraseña no valida.</string>
+    <string name="loginAUthCredentrialEmailError">No se encontró una cuenta que coincida (correo)…</string>
+    <string name="loginAuthErrorDisabledUser">La cuenta de usuario ha sido deshabilitada…</string>
+    <string name="claveDemostracion">haVistoDemostracion</string>
+    <string name="gestionarCuentaUsuario">Gestionar mi cuenta </string>
+    <string name="VerMisReseñas">"Ver mis reseñas. "</string>
+    <string name="ingrese_email_valido">Ingrese un email válido</string>
+    <string name="ingrese_contrasenia_valida">Ingrese una contraseña válida</string>
+    <string name="default_web_client_idAndroid">270741703236-ooeiefkur5smrau7ri8h63bbm4p4dg7j.apps.googleusercontent.com</string>
+
+    <string name="draw_title_configuraciones">Configuraciones</string>
+    <string name="draw_title_acercade">Acerca de</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_email">email</string>
+    <string name="txt_notificaciones">Notificaciones</string>
+    <string name="txt_actividad_reciente">Actividad reciente</string>
+    <string name="txt_cerrar_seion">Cerrar Sesión</string>
+    <string name="petlover_gestiones">Petlover - gestiones</string>
+    <string name="mi_perfil_de_cl_nica">Mi perfil de clínica</string>
+    <string name="servicios_al_cliente">Servicios al cliente</string>
+    <string name="mis_publicaciones">Mis publicaciones</string>
+    <string name="evaluaciones_de_clientes">Evaluaciones de clientes</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="clinicas">Clínicas</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="registro_en_petlover">Registro en Petlover</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="ingrese_usuario_valido">Ingrese un usuario válido</string>
+    <string name="utilice_al_menos_8_caracteres">Utilice al menos 8 caracteres.</string>
+    <string name="clinica">Clínica</string>
+    <string name="categor_a">categoría</string>
+    <string name="imagen_de_publicacion">Imagen de publicacion</string>
+    <string name="descripcion_de_publicacion">Descripción de publicación</string>
+    <string name="titulo_de_publicacion">Título de publicación</string>
+    <string name="nombre_del_servicio">Nombre del servicio</string>
+    <string name="a_n_no_hay_favoritos">Aún no hay favoritos</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+</resources>

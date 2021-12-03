@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBase"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/bg_menu"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="430dp">
+
+    <LinearLayout
+        android:id="@+id/linearPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_menu"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_margin="0dp"
+            android:id="@+id/imgPerfilClinica"
+            android:layout_width="match_parent"
+            android:src="@drawable/clinicavacio1"
+            android:layout_height="245dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen de perfil clínica"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:paddingBottom="5dp"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:backgroundTint="@color/cardview_light_background"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ipltvAreaNatural"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextColor="@color/color_error"
+                android:hint="Nombre clínica"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textClinnica"
+                    android:textSize="20sp"
+                    android:textAlignment="textStart"
+                    android:hint="@string/clinica"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textEncargado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Encargado"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                />
+
+            <TextView
+                android:id="@+id/textContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contactos"
+                android:textSize="18sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                />
+
+            <TextView
+                android:id="@+id/textDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="sans-serif"
+                android:hint="Dirección"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

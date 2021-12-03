@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBase"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/pag1"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="6dp"
+    android:layout_width="320dp"
+    android:layout_height="420dp">
+
+    <LinearLayout
+        android:id="@+id/linearPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_margin="0dp"
+            android:id="@+id/imgPerfilServicio"
+            android:layout_width="match_parent"
+            android:src="@drawable/serviciosvacio2"
+            android:layout_height="245dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen de perfil del servicio"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:paddingBottom="5dp"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:backgroundTint="@color/cardview_light_background"
+            >
+
+                <TextView
+                    android:id="@+id/textTituloServicio"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:hint="@string/nombre_del_servicio"
+                    android:maxLines="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:minHeight="32dp"
+                android:paddingBottom="5dp"
+                android:weightSum="1"
+                android:elevation="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/cardview_light_background"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.75"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:id="@+id/textDisponible"
+                        android:hint="@string/descripcion_de_publicacion"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:textAlignment="viewStart"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.25"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:id="@+id/textPrecio"
+                        android:textSize="16sp"
+                        android:textColor="@color/greySecondary"
+                        android:textAlignment="center"
+                        android:fontFamily="sans-serif-black"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textDescripcionServicio"
+                android:hint="Descripción del servicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

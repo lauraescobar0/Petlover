@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBase"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@color/bg_menu"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearBase"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearEncabezado"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="0dp"
+            android:weightSum="1"
+            android:layout_height="42dp">
+
+            <ImageView
+                android:id="@+id/imgFav"
+                android:src="@drawable/icon_presionado"
+                android:paddingStart="6dp"
+                android:paddingTop="2dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.12"
+                android:layout_height="35dp"/>
+
+            <TextView
+                android:id="@+id/linearUsuario"
+                android:orientation="vertical"
+                android:paddingTop="2dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.78"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imgMenu"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:paddingStart="6dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="35dp"/>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/plantilla_clinica" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

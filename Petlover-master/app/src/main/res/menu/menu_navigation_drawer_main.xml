@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itemd1GestionUsuario"
+            android:icon="@drawable/ic_baseline_account_box"
+            android:title="@string/gestionarCuentaUsuario" />
+
+<!--        <item
+            android:id="@+id/itemd2Reseñas"
+            android:icon="@drawable/ic_baseline_stars_24"
+            android:title="@string/VerMisReseñas" />-->
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/item3GestionarPerfilClinica"
+            android:title="@string/mi_perfil_de_cl_nica"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            />
+
+        <item
+            android:id="@+id/item4GestionarServicios"
+            android:title="@string/servicios_al_cliente"
+            android:icon="@drawable/ic_baseline_playlist_add_check_24"
+            />
+
+        <item
+            android:id="@+id/item5GestionarPublicaciones"
+            android:title="@string/mis_publicaciones"
+            android:icon="@drawable/ic_baseline_public_24"
+            />
+
+<!--        <item
+            android:id="@+id/item6VerEvaluaciones"
+            android:title="@string/evaluaciones_de_clientes"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            />-->
+
+    </group>
+
+</menu>
